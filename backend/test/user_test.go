@@ -8,8 +8,7 @@ import (
 func NameTest(t *testing.T){
 	g := gomega.NewGomegaWithT(t)
 	t.Run("need name"),func(t *testing.T){
-		g := entity.User(){
-			Name
-		}
+		g := e
+		
 	}
 }

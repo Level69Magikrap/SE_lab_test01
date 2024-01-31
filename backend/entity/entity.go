@@ -3,7 +3,6 @@ package entity
 import (
 	"time"
 	"gorm.io/gorm"
-	"github.com/Level69Magikrap/se_lab_test01"
 )
 type User struct{
 	gorm.Model
